@@ -168,7 +168,7 @@
 .navbar-sticky.small.small {
     top: 0px !important;
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1) !important;
-    background-color: black;
+    background-color: #000000;
 }
 
 #topnav .navbar-sticky {
