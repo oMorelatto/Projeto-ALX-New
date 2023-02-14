@@ -51,7 +51,7 @@
 }
 
 .menu{
-    background-color: #fff;
+    background-color: black;
     border-radius: 3px;
 }
 
@@ -185,7 +185,7 @@
 }
 
 .navbar-sticky .navigation-menu>li>a {
-    color: #323232 !important;
+    color: white !important;
 }
 
 .navbar-sticky .logo {

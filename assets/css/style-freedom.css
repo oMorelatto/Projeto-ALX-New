@@ -3367,7 +3367,8 @@ h3.heading::after {
   /*SAMPLE-2 : BUTTON-6*/ }
   .w3l-price-2 .price-main {
     padding: 70px 0;
-    background: #f8f9fa; }
+    background: #f8f9fa;
+    margin-top: 90px; }
   .w3l-price-2 .price-box {
     box-sizing: border-box;
     background: white;
