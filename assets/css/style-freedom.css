@@ -3375,7 +3375,7 @@ h3.heading::after {
     padding: 40px 30px;
     border-radius: 4px;
     box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.05);
-    border-left: 2px solid rgb(143, 5, 202);
+    border-left: 2px solid darkviolet;
     margin-bottom: 20px;
     transition: .3s ease;
     -webkit-transition: .3s ease;
