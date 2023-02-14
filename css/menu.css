@@ -51,7 +51,7 @@
 }
 
 .menu{
-    background-color: darkblue;
+    background-color: black;
     border-radius: 3px;
 }
 
@@ -168,7 +168,7 @@
 .navbar-sticky.small.small {
     top: 0px !important;
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1) !important;
-    background-color: #fff;
+    background-color: black;
 }
 
 #topnav .navbar-sticky {
