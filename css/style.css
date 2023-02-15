@@ -1308,6 +1308,10 @@ textarea.form-control {
     justify-content: center;
 }
 
+.footer-title {
+    color: white;
+}
+
 
 .footer-info {
     color: #bcbcbc;
