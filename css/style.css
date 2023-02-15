@@ -1307,9 +1307,16 @@ textarea.form-control {
     color: #f7f7f7;
     letter-spacing: 0.5px;
 }
+.footer-title img {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .footer-info {
     color: #bcbcbc;
+    text-align: justify;
 }
 
 .footer-link a {
