@@ -310,6 +310,7 @@
     }
     
     #topnav .navigation-menu {
+        background-color: black;
         float: none;
         max-height: 400px;
     }
