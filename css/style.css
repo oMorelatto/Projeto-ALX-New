@@ -1303,15 +1303,10 @@ textarea.form-control {
     background-color: #323232;
 }
 
-.footer-title h5 {
-    color: #f7f7f7;
-    letter-spacing: 0.5px;
-}
-.footer-title img {
+.footer-title {
     display: flex;
     justify-content: center;
 }
-
 
 
 .footer-info {
