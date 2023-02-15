@@ -1303,13 +1303,14 @@ textarea.form-control {
     background-color: #323232;
 }
 
-.footer-title {
-    display: flex;
-    justify-content: center;
-}
 
 .footer-title h5 {
     color: white;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
 }
 
 
