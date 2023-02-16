@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/colors/purple.css" id="color-opt" />
     <link rel="stylesheet" href="assets/css/style-freedom.css">
+	<link rel="stylesheet" href="./css/all.css">
+	<link rel="stylesheet" href="./css/slick.css">
+	<link rel="stylesheet" href="./css/default.min.css">
 
 </head>
 
@@ -311,6 +314,173 @@
 	</section>
 
     <!-- Oportunidades end-->
+
+    <main class="contact internal">
+		<section class="common-limiter content-contact internal">
+		  <div class="box-title">
+			<h1 class="bg-title">Contato / Envie seu currículo</h1>
+		  </div>
+		  <div class="alinha-contato">
+			<div class="address">
+			  <h3 class="title common-title">Endereço</h3>
+			  <p class="no-margin">
+				Rua. Bolivar Pedroti Melgare, 124, Interlagos, Caxias do Sul, RS,
+				95052-100
+			  </p>
+  
+			  <h3 class="title common-title">Telefone</h3>
+			  <p>(54) 9 8436.4876</p>
+			  <h3 class="title common-title">Horários</h3>
+			  <p class="no-margin">
+				De segunda à sexta-feira <br />
+				Manhã: 08h às 12h <br />
+				Tarde: 13h às 17h <br />
+			  </p>
+			</div>
+			<form
+			  action="../email.php"
+			  class="common-form ajax-form"
+			  method="POST"
+			>
+			  <div class="list-input">
+				<div class="box-input">
+				  <input
+					class="input"
+					data-val="true"
+					data-val-required="Você deve informar o nome"
+					id="Nome"
+					name="Nome"
+					style="padding-left: 75px"
+					type="text"
+					value=""
+				  />
+				  <span
+					class="field-validation-valid"
+					data-valmsg-for="Nome"
+					data-valmsg-replace="true"
+				  ></span>
+				  <label for="Nome">Nome*</label>
+				</div>
+  
+				<div class="box-input">
+				  <input
+					class="input"
+					data-val="true"
+					data-val-regex="Você deve informar um e-mail válido"
+					data-val-regex-pattern="[a-z0-9!#$%&amp;&#39;*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;&#39;*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+					data-val-required="Você deve informar o e-mail"
+					id="Email"
+					name="Email"
+					style="padding-left: 75px"
+					type="email"
+					value=""
+				  />
+				  <span
+					class="field-validation-valid"
+					data-valmsg-for="Email"
+					data-valmsg-replace="true"
+				  ></span>
+				  <label for="Email">E-mail*</label>
+				</div>
+			  </div>
+			  <div class="list-input">
+				<div class="box-input">
+				  <input
+					class="input"
+					id="Empresa"
+					name="Empresa"
+					style="padding-left: 85px"
+					type="text"
+					value=""
+				  />
+				  <label for="Empresa">Empresa</label>
+				</div>
+  
+				<div class="box-input">
+				  <input
+					class="input"
+					id="Telefone"
+					name="Telefone"
+					style="padding-left: 85px"
+					type="text"
+					value=""
+				  />
+				  <label for="Telefone">Telefone*</label>
+				</div>
+			  </div>
+			  <select
+				class="input select"
+				data-val="true"
+				data-val-required="Você deve informar o assunto"
+				id="Assunto"
+				name="Assunto"
+			  >
+				<option selected="selected" value="">Assunto*</option>
+				<option>Cadastro de Currículo</option>
+				<option value="Dúvidas">Dúvidas</option>
+				<option value="Elaboração | Revisão de Currículos">
+				  Elaboração | Revisão de Currículos
+				</option>
+				<option value="Elogio | Reclamação | Sugestão">
+				  Elogio | Reclamação | Sugestão
+				</option>
+				<option value="Orientação de Carreira">
+				  Orientação de Carreira
+				</option>
+				<option value="Serviços para minha empresa">
+				  Serviços para minha empresa
+				</option></select
+			  ><span
+				class="field-validation-valid"
+				data-valmsg-for="Assunto"
+				data-valmsg-replace="true"
+			  ></span>
+			  <div class="box-input box-textarea">
+				<textarea
+				  class="input textarea"
+				  cols="20"
+				  data-val="true"
+				  data-val-required="Você deve informar a dúvida/sugestão"
+				  id="Mensagem"
+				  name="Mensagem"
+				  rows="2"
+				  style="padding-left: 100px"
+				></textarea>
+				<span
+				  class="field-validation-valid"
+				  data-valmsg-for="Mensagem"
+				  data-valmsg-replace="true"
+				></span>
+				<label for="Mensagem">Mensagem*</label>
+			  </div>
+			  <div class="formulario">
+				<span>Anexo currículo</span>
+				<input type="file" id="anexo" name="Anexo" />
+				<br />
+			  </div>
+			  <div class="footer-form">
+				<button type="submit" class="submit common-button primary">
+				  Enviar
+				</button>
+			  </div>
+			</form>
+		  </div>
+		</section>
+  
+		<div class="mapa-conteudo">
+		  <iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.5580152814287!2d-51.166063599999994!3d-29.1482243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ebd2519b9819b%3A0xe86579ffec18debf!2sR.%20Bol%C3%ADvar%20Pedroti%20Melgare%2C%20124%20-%20Sagrada%20Fam%C3%ADlia%2C%20Caxias%20do%20Sul%20-%20RS%2C%2095052-100!5e0!3m2!1spt-BR!2sbr!4v1661873888412!5m2!1spt-BR!2sbr"
+			width="100%"
+			height="300"
+			style="border: 0"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		  ></iframe>
+		</div>
+	  </main>
+
+
 
     <!-- START CAT -->
     <section class="section section-lg bg-cta">
