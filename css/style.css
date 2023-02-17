@@ -22,7 +22,6 @@
 
 *****************************/
 
-
 :hoot {
   --cor-violeta-alx: #5e17eb;
 }
@@ -64,10 +63,6 @@ button:focus {
   outline: 0;
   box-shadow: none;
 }
-
-
-
-
 
 /*****************
     1.  HELPER
@@ -239,6 +234,7 @@ button:focus {
 .title-desc {
   max-width: 600px;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .title-heading:before {
@@ -1281,10 +1277,40 @@ textarea.form-control {
   margin-right: 30px;
 }
 
-
 .info {
   margin-top: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 290px;
+  margin-bottom: 24px;
+}
 
+.info i {
+  color: white;
+  margin: 4px 14px 0 0;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+.info i:hover {
+  color: var(--cor-violeta-alx);
+  transform: scale(1.3);
+}
+
+.fa-phone {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 991px) {
+  .footer-box {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 991px) {
+  .info {
+    padding-left: 10%;
+  }
 }
 
 .info span {
@@ -1327,9 +1353,6 @@ textarea.form-control {
 .footer-link {
   float: left;
 }
-
-
-
 
 .newsletter input {
   padding: 12px 20px;
