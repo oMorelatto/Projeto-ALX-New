@@ -3,6 +3,9 @@
    Version: 1.0.0
    File Description: Main CSS file of the template
 */
+:hoot {
+--cor-violeta-alx: #5e17eb;
+}
 
 .btn-outline:hover,
 .btn-outline:focus,
@@ -22,7 +25,7 @@
     #topnav .navigation-menu > li.has-submenu.open > a,
     #topnav .menu-extras .menu-item .cart > a:hover,
     #topnav .menu-extras .menu-item .search > a:hover,#topnav .has-submenu.active a, #topnav .navigation-menu .submenu.open .has-submenu.open > a {
-    color: #8a4df0 !important;
+    color: var(--cor-violeta-alx) !important;
 }
 
 
@@ -37,7 +40,7 @@
 
 .btn-custom,.services-icon,.ser-6-content,.counter-6-box,.testi-6-box,.team-img img,.custom-form .form-control:focus,#topnav .has-submenu.active .menu-arrow
  {
-    border-color: #8a4df0;
+    border-color: var(--cor-violeta-alx);
 }
 
 
