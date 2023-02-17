@@ -1266,6 +1266,7 @@ body {
   .box-nav {
     display: flex;
     margin-top: 10%;
+    padding-top: 57px;
   }
 
   .box-nav nav {
@@ -1280,7 +1281,7 @@ body {
   }
 
   .box-nav nav a {
-    margin: 0 50px 40px 0;
+    margin: -12px -7px 32px 40px;
     transition: 0.3s ease;
     transition-property: color;
     font-size: 16px;
