@@ -1275,6 +1275,18 @@ body {
     flex-direction: column;
   }
 
+  .nav-left {
+    margin-right: 30px;
+  }
+
+  .box-nav nav a {
+    margin: 0 50px 40px 0;
+    transition: 0.3s ease;
+    transition-property: color;
+    font-size: 16px;
+  }
+
+
   .bg-footer {
     background-color: black;
   }
