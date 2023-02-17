@@ -32,7 +32,7 @@
 .btn-custom,.bg-custom, .title-border,.variation-3 .home-title,.progress-bar,.about-5-icon i,.services-icon,.services-4-icon,.counter-border,.testi-lable p,
 .team-content a,.team-border,.play-icon-circle,.blog-lable,.blog-highlight,.blog-5-lable a,.blog-6-lable,#topnav .navbar-toggle.open span:hover,
 #topnav .navigation-menu > li:hover > .menu-arrow {
-    background-color: #8a4df0;
+    background-color: var(--cor-violeta-alx);
 }
 
 
