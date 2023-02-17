@@ -1265,14 +1265,7 @@ body {
   .bg-footer {
     background-color: black;
   }
-  
-  .nav-footer {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 0px;
-    align-items: center;
-  }
-  
+    
   .footer-title h5 {
     color: white;
   }
