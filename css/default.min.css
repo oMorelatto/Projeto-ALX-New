@@ -1812,6 +1812,12 @@ body.open {
     display: none;
   }
 }
+
+.box-nav {
+  display: flex;
+  margin-top: 10%;
+}
+
 .footer .content-footer .center .box-nav {
   display: flex;
   justify-content: flex-start;
