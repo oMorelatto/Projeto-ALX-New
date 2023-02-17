@@ -1262,6 +1262,19 @@ body {
     17.  FOOTER
   *****************/
   
+
+  .box-nav {
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .box-nav nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .bg-footer {
     background-color: black;
   }
