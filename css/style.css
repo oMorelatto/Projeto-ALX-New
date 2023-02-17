@@ -1278,12 +1278,25 @@ textarea.form-control {
   margin-right: 30px;
 }
 
+
+.info {
+  margin-top: 10%;
+
+}
+
+.info span {
+  color: #bcbcbc;
+}
+
 .box-nav nav a {
-  color: white;
+  color: #bcbcbc;
   margin: -12px -7px 32px 40px;
   transition: 0.3s ease;
   transition-property: color;
   font-size: 16px;
+}
+.box-nav nav a:hover {
+  color: #007bff;
 }
 
 .bg-footer {
