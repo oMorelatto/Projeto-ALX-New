@@ -8,6 +8,7 @@
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
+    --cor-violeta-alx: #5e17eb;
     --pink: #e83e8c;
     --red: #dc3545;
     --orange: #fd7e14;
@@ -174,6 +175,11 @@ a {
 
 a:hover {
     color: #0056b3;
+    text-decoration: underline
+}
+
+.box-nav nav a:hover {
+    color: var(--cor-violeta-alx);
     text-decoration: underline
 }
 
