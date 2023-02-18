@@ -9,6 +9,10 @@
 	text-align: center;
 }
 
+.owl-buttons {
+	display: none;
+}
+
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
