@@ -788,9 +788,11 @@ button:focus {
 
 /* variation-4 */
 
-#owl-demo-4 .owl-pagination {
-  display: ;
+
+.owl-buttons {
+	display: none;
 }
+
 
 .testimonial-img img {
   width: 80px;
