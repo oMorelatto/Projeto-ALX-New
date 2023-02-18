@@ -3371,16 +3371,9 @@
   content: '\F35E';
 }
 
-/*
 .mdi-menu-right:before {
   content: '\F35F';
 }
-*/
-.fa-arrow-right:before {
-  content: '\f061';
-}
-
-
 
 .mdi-menu-up:before {
   content: '\F360';
