@@ -110,7 +110,7 @@ button:focus {
 
 .bg-overlay {
   background-color: #323232;
-  opacity: 0.7;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 0;
@@ -336,7 +336,7 @@ button:focus {
 /* variation-4 */
 
 .bg-home-4 {
-  background-image: url('../images/bg-6.jpg');
+  background-image: url('../images/tela-inicial.avif');
   background-size: cover;
   height: 100vh;
   background-position: center center;
