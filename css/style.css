@@ -110,7 +110,7 @@ button:focus {
 
 .bg-overlay {
   background-color: #323232;
-  opacity: 0.5;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   left: 0;
@@ -214,6 +214,7 @@ button:focus {
 .line-height_1_8 {
   line-height: 1.8;
 }
+
 
 /*****************
     2.   TITLE

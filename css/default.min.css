@@ -1094,7 +1094,7 @@ a:active {
   display: none !important;
 }
 main {
-  padding: 140px 0 0;
+  padding: 70px 0 0;
 }
 @media only screen and (max-width: 768px) {
   main.internal {
@@ -1394,7 +1394,7 @@ main {
 .header .content .common-limiter .menu {
   display: none;
   align-items: normal;
-  flex-wrap: wrap;
+
   width: 100%;
   margin-top: 30px;
   padding: 30px 100px;
@@ -3314,7 +3314,7 @@ body.open {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex-wrap: wrap;
+
   width: 100%;
   margin-bottom: 50px;
 }
@@ -3500,7 +3500,7 @@ body.open {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex-wrap: wrap;
+
   width: 100%;
   margin-bottom: 50px;
 }
@@ -3983,7 +3983,7 @@ body.open {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  flex-wrap: wrap;
+
   margin-left: 13%;
 }
 @media only screen and (max-width: 960px) {
@@ -4323,8 +4323,7 @@ body.open {
 
 .row {
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+
   margin-right: -15px;
   margin-left: -15px;
 }

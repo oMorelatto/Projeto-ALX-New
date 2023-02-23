@@ -2,6 +2,10 @@
         NAVBAR
 *******************************/
 
+:root {
+
+    --cor-violeta-alx: #5e17eb;
+}
 #topnav {
     z-index: 1030;
     border: 0;
@@ -19,7 +23,6 @@
 
 #topnav .navigation-menu > li {
     float: left;
-    display: block;
     position: relative;
     margin: 0 5px;
 }
@@ -51,8 +54,11 @@
 }
 
 .menu{
-    background-color: black;
+
     border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-logo {
@@ -92,6 +98,10 @@
     position: relative;
     margin: 28px auto;
     height: 15px;
+}
+
+#topnav .navbar-toggle .lines:hover {
+    background-color: var(--cor-violeta-alx)
 }
 
 #topnav .navbar-toggle span {
@@ -176,8 +186,18 @@
     width: 100% !important;
 }
 
+
+
+.inicial {
+    top: 90px !important;
+}
+
+.menu-outros{
+    background-color: #000000
+}
+
 .navbar-sticky {
-    top: 40px !important;
+    display: ;
 }
 
 .nav-top {
@@ -279,7 +299,6 @@
 }
 
 
-}
 .darkheader {
     background-color: #222527 !important;
     -moz-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
@@ -372,11 +391,11 @@
         text-transform: uppercase;
         font-size: 12px;
         letter-spacing: 2px;
-        color: #7a7d84;
+        color: #000000;
     }
     
     #topnav .navbar-toggle span {
-        background-color: #7a7d84;
+        background-color: white;
     }
     
     #topnav .navbar-header {
