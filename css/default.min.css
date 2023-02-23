@@ -1080,6 +1080,11 @@ a {
   color: unset;
 }
 
+.inicial-outros {
+  top: 90px !important;
+  padding: 70px 0px;
+}
+
 .sublinhado {
   text-decoration: underline;
 }

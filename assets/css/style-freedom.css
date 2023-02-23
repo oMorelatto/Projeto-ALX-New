@@ -3366,7 +3366,7 @@ h3.heading::after {
 .w3l-price-2 {
   /*SAMPLE-2 : BUTTON-6*/ }
   .w3l-price-2 .price-main {
-    padding: 70px 0;
+    padding: 80px 0;
     background: #f8f9fa;
     margin-top: 90px; }
   .w3l-price-2 .price-box {
@@ -3429,7 +3429,7 @@ h3.heading::after {
   .w3l-price-2 .bt6:hover {
     color: white; }
   .w3l-price-2 .bt6:hover:before {
-    border-width: 100px 0 0 100px; }
+    border-width: 80px 0 0 80px; }
   .w3l-price-2 .bt6:hover:after {
     border-width: 0 100px 100px 0; }
   .w3l-price-2 .price-img {
